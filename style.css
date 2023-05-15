@@ -1,12 +1,10 @@
-body {
-    
-}@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
 
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-}
+} 
 body{
     min-height:100vh;
     background: #e3eaff;
@@ -15,59 +13,35 @@ body{
     justify-content:center;
     align-items: center;
 }
-@media (min-width:1440px){
-    .card{
-        width:1500px;
-    }
-}
 .card{
-    width:200px;
-    height: auto;
+    width: 360px;
     background: #ffffff;
-    border-radius:10px;
-    box-shadow:0 0 100px rgb(223,213,213);
+    padding: 1rem;
     display:flex;
     flex-direction:column;
-    
+    justify-content: center;
+    border-radius:20px;
+    box-shadow:0 0 50px rgba(90, 86, 86, 0.365);
+    text-align: center;
 }
-.qrCode{
-    width:175px;
-    padding:10px 10px 10px 10px;
-    display:flex;
-    position: relative;
-    left:3px;
-}
+
 img{
-    width:175px;
-    border-radius:10px;
+    width: 100%;
+    border-radius:inherit;
+    margin-bottom: 1rem;
 }
-.headText{
-    width:185px;
-    padding:10px 10px 10px 10px;
-    display:flex;
-    position: relative;
-    left:10px;
-    bottom:10px;
-    
+.text{
+    padding: 1rem;
 }
-.headText h1{
-    text-align:center;
-    font-size:15px;
-    color:hsl(218, 44%, 22%);
+.text h1{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+    margin-bottom: 1rem;
 }
-.headText span{
-    letter-spacing:0px;
-    right:55px;    
-    
-}
-.para{
-    font-size:10px;
-    color:hsl(212, 45%, 89%);
-    width:185px;
-    padding:10px 10px 10px 10px;
-    display:flex;
-    position: relative;
-    left:10px;
-    bottom:18px;
-    text-align:center;
+.text p{
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+    color: hsl(220, 15%, 55%);
 }
